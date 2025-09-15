@@ -19,3 +19,23 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.cards {
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
