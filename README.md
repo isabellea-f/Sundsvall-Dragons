@@ -1,1 +1,0 @@
-# Sundsvall-Dragons
