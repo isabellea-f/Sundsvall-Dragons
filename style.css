@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  background-image: url("https://visitsweden.com/_next/image/?url=https%3A%2F%2Fs3-eu-north-1.amazonaws.com%3A443%2Fpy3.visitsweden.com%2Foriginal_images%2F16540150572_86d6e511f5_o-CMSTemplate_rlL4sMx.jpg&w=1024&q=75");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
