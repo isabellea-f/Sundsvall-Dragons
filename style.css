@@ -1,3 +1,8 @@
+:root{
+    --lila:#9b5de5;
+    --bla:#00bbf9;
+    --turkos:#00f5d4;
+}
 #grid-container{
     display:flex;
     flex-direction: column;
