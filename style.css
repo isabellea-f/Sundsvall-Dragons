@@ -16,8 +16,11 @@
 .hero-container {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: larger;
+  font-size: 30px;
   padding: 100px;
   color: white;
   text-shadow: 2px 2px black;
+}
+a {
+  text-decoration: none;
 }
