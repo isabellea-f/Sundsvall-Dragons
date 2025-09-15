@@ -3,6 +3,7 @@
   --bla: #00bbf9;
   --turkos: #00f5d4;
 }
+
 #grid-container {
   display: flex;
   flex-direction: column;
@@ -11,4 +12,44 @@
 .weather-cont {
   width: 20vw;
   height: 20vh;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+  background-image: url("https://visitsweden.com/_next/image/?url=https%3A%2F%2Fs3-eu-north-1.amazonaws.com%3A443%2Fpy3.visitsweden.com%2Foriginal_images%2F16540150572_86d6e511f5_o-CMSTemplate_rlL4sMx.jpg&w=1024&q=75");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cards-section {
+  text-align: center;
+}
+
+.cards-section h2 {
+  margin-top: 5rem;
+}
+
+.cards-container {
+  margin: 5rem 0;
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.cards {
+  overflow: hidden;
+  width: 400px;
+  text-align: center;
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
 }
