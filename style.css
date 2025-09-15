@@ -17,3 +17,39 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#se-gora-section{
+    display:flex;
+    padding: 30px;
+    max-height:50vh;
+}
+.att-gora{
+    padding:0;
+    margin:0;
+    /* flex-grow: stretch; */
+    justify-content: center;
+    align-content:start;
+    max-height: 50vh;
+    max-width:300px;
+}
+.att-gora-img-general{
+    height: 25vh;
+    width: 25vw;
+}
+.att-gora-img-1{
+    overflow: hidden;
+    background-size: cover;
+    background-image: url("https://sundsvall400.se/images/18.553d840218e5f711c7a8b7ae/1712758762537/x1920p/Minidraken_3.png");
+}
+.att-gora-img-2{
+    max-height: 50vh;
+    max-width:25vw;
+    overflow: cover;
+    background-size: cover;
+    background-image: url("https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrFnJ_qQHQubp6z3bvxaIkzvNoo1SJqAfLvukBkF5AX690UZCFKRHZjc5WBTVDOIng4mA_4ahaCQFCtZGIxe-YM0tHVq3z3fS-eUPaolKvWV_hzPT_zPPXGdxi35uuAMyJEsdJFrw=s1360-w1360-h1020");
+}
+.att-gora-img-3{
+    max-height: 50vh;
+    max-width:25vw;
+    background-size: cover;
+    background-image: url("https://lh3.googleusercontent.com/gps-cs-s/AC9h4np83nKBa0BzothiRFqFRh7ydy2aurdi30cbuu3iDeX4CCFVzfL7uhZ4aJQMKsR4r7pbCna9HaKVtSDOOarhFhOxIDOMNuv-1MrqyfJ6tVj48vXKID5IrIKzwNKiMUJbaZDv68wVsL1PQIdO=s1360-w1360-h1020");
+}
