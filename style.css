@@ -9,6 +9,11 @@
   flex-direction: column;
 }
 
+#header-title {
+  display: inline;
+  font-size: 4rem;
+}
+
 .hero {
   border: 5px solid goldenrod;
   border-radius: 20px;
