@@ -1,9 +1,26 @@
-:root{
-    --lila:#9b5de5;
-    --bla:#00bbf9;
-    --turkos:#00f5d4;
+:root {
+  --lila: #9b5de5;
+  --bla: #00bbf9;
+  --turkos: #00f5d4;
 }
-#grid-container{
-    display:flex;
-    flex-direction: column;
+#grid-container {
+  display: flex;
+  flex-direction: column;
+}
+.hero {
+  border: 5px solid goldenrod;
+  border-radius: 20px;
+  background-image: url(images/svall);
+  background-size: cover;
+}
+.hero-container {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  padding: 100px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+a {
+  text-decoration: none;
 }
