@@ -10,17 +10,7 @@
 
 .weather,
 .weather-cont {
-  width: 20vw;
-  height: 20vh;
+  width: 25vw;
+  height: 25vh;
   background-color: var(--turkos);
-}
-.weather {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.weather-icon {
-  width: 100%;
-  height: auto;
-  display: inline-block;
 }
