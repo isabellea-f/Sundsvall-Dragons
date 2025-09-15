@@ -10,11 +10,12 @@
 .hero {
   border: 5px solid goldenrod;
   border-radius: 20px;
-  background-image: url(images/Sundsvall.jpg);
-  background-size: auto;
+  background-image: url(images/svall);
+  background-size: cover;
 }
 .hero-container {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: larger;
+  padding: 100px;
 }
