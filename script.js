@@ -24,7 +24,7 @@ async function getWeatherData() {
     img.alt = desc;
 
     weatherCont.textContent = `Just nu: Sundsvall ${temp}°C, ${desc}`;
-    weatherCont.prepend(img);
+    weatherCont.append(img);
   } catch (error) {
     console.error(error.message);
   }
