@@ -37,6 +37,12 @@ nav {
   }
 }
 
+li:hover {
+  background-color: coral;
+  transform: scale(1.25);
+  transition: 0.2s;
+  
+}
 .hero {
   font-family: "Montserrat Underline", sans-serif;
   height: 80vh;
@@ -119,3 +125,9 @@ footer > *{
   text-align: center;
 }
 
+ a img:hover{
+
+  transform: scale(1.25);
+  transition: 0.2s;
+  
+}
