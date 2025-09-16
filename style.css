@@ -105,3 +105,17 @@ a {
   display: block;
   border-radius: 5px;
 }
+
+footer {
+  display: grid;
+  justify-content: center; 
+  align-items: center;          
+  padding: 15px 30px;
+  background: #222;
+  color: white;
+}
+
+footer > *{
+  text-align: center;
+}
+
